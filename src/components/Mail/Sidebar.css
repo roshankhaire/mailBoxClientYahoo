@@ -1,0 +1,22 @@
+
+.sidebar{
+    display:flex;
+    ;
+  }
+  .left__sidebar{
+    width: 20%;
+    background-color:whitesmoke;
+  }
+  .body{
+    width: 80%;
+  }
+  .btn{
+    padding :15px;
+    margin-top: 30px;
+    cursor: pointer;
+     border-radius: 10px ;
+     background-color: blueviolet;
+  }
+  .left__sidebar{
+    width: 20%;
+  }

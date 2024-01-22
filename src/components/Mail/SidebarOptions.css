@@ -1,0 +1,15 @@
+.inbox{
+  border: 1px solid whitesmoke;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+.sent{
+  border: 1px solid whitesmoke;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+.allMail{
+  border: 1px solid whitesmoke;
+  background-color: aquamarine;
+  cursor: pointer;
+}
