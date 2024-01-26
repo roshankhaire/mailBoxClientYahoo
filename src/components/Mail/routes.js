@@ -1,7 +1,7 @@
 
 import {lazy} from "react"
 const Main=lazy(()=>import("./View"))
-const EmailList=lazy(()=>import("./EmailList"))
+const EmailList=lazy(()=>import("./Inbox"))
 const View=lazy(()=>import("./View"))
 const routes={
     main:{

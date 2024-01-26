@@ -2,11 +2,13 @@ import React from "react"
 import Dialog from '@mui/material/Dialog';
 import { useState } from "react";
 import axios from "axios";
-
+import { useDispatch, useSelector } from "react-redux";
 import InputBase from '@mui/material/InputBase';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import { emailCountActions } from "../store/emailsCount";
 const ComposeDialog=({openDialog,setopenDialog})=>{
+    const dispatch=useDispatch()
     const [to,setTo]=useState("")
     const [subject,setSubject]=useState("");
     const [message,setMessage]=useState("")
@@ -40,7 +42,13 @@ const ComposeDialog=({openDialog,setopenDialog})=>{
           })
 
           closeHandler()
+          dispatch(emailCountActions.addEmails({
+            to,
+            subject,
+            message
+          }))
           alert("email sent successfully")
+
     }
     return(
         <Dialog open={openDialog}

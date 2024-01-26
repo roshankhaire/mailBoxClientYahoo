@@ -1,10 +1,19 @@
-import React from "react"
-
-const EmailList=()=>{
-    return(
+const EmailList=(props)=>{
+       return(
         <>
-      <h3>This is a mail</h3>
+        <ul>
+            <li>
+            <div style={{display:"flex",justifyContent:"space-between"}}>
+            <div> <h1>Email lisi {props.to}</h1></div>
+            <div> <button>Delete</button></div>
+       
+       
+        </div>
+            </li>
+        </ul>
+       
+      
         </>
-    )
+       )
 }
 export default EmailList

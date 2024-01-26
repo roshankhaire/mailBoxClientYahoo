@@ -1,22 +1,19 @@
 
 .sidebar{
-    display:flex;
-    ;
+    display:flex; 
+   
   }
   .left__sidebar{
     width: 20%;
     background-color:whitesmoke;
+    height: 750px;
   }
   .body{
     width: 80%;
+    height: 750px;
   }
-  .btn{
-    padding :15px;
-    margin-top: 30px;
-    cursor: pointer;
-     border-radius: 10px ;
-     background-color: blueviolet;
-  }
+
   .left__sidebar{
     width: 20%;
   }
+

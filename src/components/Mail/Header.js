@@ -1,5 +1,5 @@
 import React from "react"
-import "../../components/Header.css"
+import "./Header.css"
 const Header=()=>{
     return(
         <>
@@ -8,20 +8,18 @@ const Header=()=>{
                <div>
                    <h4>Yahoo/mail</h4>
                 </div>
-                <div class="search">
-                        <div >
-                        <input/>
-                    
-                     </div>
+               
                     
               
-               </div>
-                <div>
-                   <h4>Roshan</h4>
-                </div>
-                <div>
-                  <button>Logout</button>
-                </div>
+               
+                <marquee  direction="right">
+                <h4>Welcome to  Yahoo/mail</h4>
+
+
+                </marquee> 
+                  
+                
+              
                 
         </div>
         </>

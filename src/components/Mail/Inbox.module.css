@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    width: 1400px;
+    height: 750px;
+    border:2px solid paleturquoise;
+    border-radius: 20px;
+}
+.notlink{
+    text-decoration: none;
+}
+.btn{
+    width: 4px;
+    background-color: red;
+    padding-top: 5px;
+}
+.nobutton{
+    width: 4px;
+    background-color: white;
+    padding-top: 5px;
+}
